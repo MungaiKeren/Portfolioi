@@ -1,0 +1,29 @@
+html,
+body,
+header,
+#home {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+#home {
+    background: url("")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.top-nav-collapse {
+    background-color: #5BC0DE;
+  }
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #5BC0DE;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #5BC0DE;
+    }
+  }
