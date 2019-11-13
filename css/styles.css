@@ -18,16 +18,16 @@ header,
   margin-left: -5%;
 }
 .top-nav-collapse {
-    background-color: #42dee1;
+    background-color: #45454d;
   }
   @media (max-width: 768px) {
     .navbar:not(.top-nav-collapse) {
-      background-color: #42dee1;
+      background-color: #45454d;
     }
   }
   @media (min-width: 800px) and (max-width: 850px) {
     .navbar:not(.top-nav-collapse) {
-      background-color: #42dee1;
+      background-color: #45454d;
     }
   }
 #name{
@@ -47,10 +47,10 @@ hr.new5 {
   font-family: 'Courgette', cursive;
 }
 #mouse-click{
-  padding-top : 22px;
   margin-top: 5%;
   padding-bottom: 40px; 
-  /* animation-iteration-count: infinite; */
+  margin-left: 40%;
+  margin-top: 40%;
 }
 #mouse-click {
   animation: bounce 2s infinite;
@@ -66,4 +66,15 @@ hr.new5 {
   60% {
     transform: translateY(-45px);
   }
+}
+.footer{
+  background-color: #45454d;
+  margin: 0% !important;
+  height: 11vh;
+}
+p#foot{
+  color: white !important;
+}
+p.grey-text{
+  margin-top: 2%;
 }

@@ -27,7 +27,7 @@
     <!--Main Navigation-->
     <header>
         <!--Navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+        <nav class="navbar navbar-expand-lg navbar-dark scrolling-navbar fixed-top">
 
             <div class="container">
 
@@ -47,7 +47,7 @@
                             <a class="nav-link" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#examples">Projects </a>
+                            <a class="nav-link" href="index.html#examples">Projects </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contacts">Contact</a>
@@ -80,20 +80,21 @@
                 <!-- Collapsible content -->
             </div>
         </nav>
-        <section class="slewedBox mt-5">
+        <section class="container-fluid slewedBox mt-5">
             <div class="container-fluid" id="skew">
                 <div class="row">
                     <div class="col-md-2" data-toggle="tooltip" data-placement="top" title="Kayren">
-                        <img src="images/me2.jpg" height="200px" width="" id="img" alt="">
+                        <img src="images/me2.jpg" class="img-fluid mt-5 mb-1" id="myimg" height="200px" id="img" alt="">
                     </div>
-                    <div class="col-md-10">
+
+                    <div class="col-md-10 mt-4">
                         <h1>About me</h1>
                         <p>My name is keren, but sometimes I like it with the 'a' and y, like Kayren.
                             I'm passionate about building almost anything in computers, and coming up
                             with technical solutions to existing problems in our world, just to make it a
-                            better place to live in. Full stack webdevelopment is my track while flask and
+                            better place to live in. Full stack web development is my track while flask and
                             django are my areas of intellect. I'm result oriented and can produce the best
-                            work within the sortest time possible,,, trust me i'm not a robot... shortest
+                            work within the shortest time possible,,, trust me i'm not a robot... shortest
                             time here is relative.
                         </p>
                         <p>
@@ -104,7 +105,7 @@
                             of bugs and functions as expected.
                         </p>
                         <p>
-                            From a student to a juniour developer, my hunger and thirst for knowledge has
+                            From a student to a junior developer, my hunger and thirst for knowledge has
                             contributed to my success and achievements so far. I believe that learning is
                             a daily experience that I have to face every day. I'm always amused of how
                             much information I didn't just know yet. I'm open to freelance
@@ -112,7 +113,8 @@
                         </p>
                     </div>
                 </div>
-                <h1>Skill set</h1>
+
+                <h1 class="">Skill set</h1>
                 <div class="row" id="skills">
                     <div class="col-md-2" data-toggle="tooltip" data-placement="top" title="Angular">
                         <img src="images/angular-icon.svg" id="img2" height="200px" class="img-thumbnail" alt="">
@@ -137,14 +139,15 @@
                 </div>
             </div>
         </section>
+    
         <section class="sec2">
             <div class="container" id="contacts">
-                <h4 id="rchme">Reach out to me @</h4>
+                <h4 class="text-white" id="rchme">Reach out to me @</h4>
                 <i class="far fa-envelope" id="i">
-                    <a href="https://gmail.com" id="a">wambukeren@gmail.com</a>
+                    <a href="https://gmail.com" target="_blank" id="a">wambukeren@gmail.com</a>
                 </i>
         </section>
-        <div class="footer">
+        <div class="footer pt-4">
             <p class="text-center" id="foot">
                 made with <i class="far fa-heart"></i> by mungaikeren
             </p>
